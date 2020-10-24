@@ -224,7 +224,7 @@ void Rational::reduce()  {
 
 int main (){
     int x1, x2, y1, y2;
-    cout << "Please enter four intergers to create two rational numbers:" << endl;
+    cout << "Please enter four integers to create two rational numbers:" << endl;
     cin >> x1 >> x2 >> y1 >> y2; //THIS PROGRAM CAN ONLY HANDLE 4 BYTE NUMBERS
     Rational a, b, result, master1, master2;
     a=Rational(x1,x2);
