@@ -6,8 +6,8 @@
 //  Copyright © 2018 Rachel klibowitz. All rights reserved.
 //
 
-#ifndef ASSIGN7ATOM_H
-#define ASSIGN7ATOM_H
+#ifndef EXPRESSIONPARSER_H
+#define EXPRESSIONPARSER_H
 using namespace std;
 #include <string>
 bool isExpr(string&);
@@ -86,4 +86,4 @@ bool isExpr(string& s){
   else return false;
 }
 
-#endif /* Assign7atom_h */
+#endif /* EXPRESSIONPARSER_H */
