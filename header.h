@@ -6,8 +6,8 @@
 //  Copyright © 2018 Rachel klibowitz. All rights reserved.
 //
 
-#ifndef header_h
-#define header_h
+#ifndef single_linked_list
+#define single_linked_list
 using namespace std;
 
 class Node {
@@ -150,4 +150,4 @@ void Sll::print(){
     }
     cout << endl;
 };
-#endif /* header_h */
+#endif /* single_linked_list */
